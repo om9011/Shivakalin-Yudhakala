@@ -1,0 +1,36 @@
+.performance-slider-container {
+  
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.performance-slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.performance-card {
+  flex: 0 0 25%;
+}
+
+.navigation-buttons {
+  position: relative;
+  top: 400px;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.navigation-buttons button {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.active {
+  transform: translateX(0);
+}

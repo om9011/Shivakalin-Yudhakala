@@ -1,0 +1,93 @@
+.banner-slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    bordeer
+  }
+  
+  .slider-content {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .banner-container {
+    flex: 0 0 100%;
+  }
+  
+  .banner {
+    margin-top:70px;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .banner button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    border: blue 2px solid;
+    background:blue;
+    cursor: pointer;
+  }
+  
+  .prev-button,
+  .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .banner {
+      padding: 20px;
+      height: 300px;
+    }
+  
+    .banner h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  
+    .banner p {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+  
+    .banner button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  
+    .prev-button,
+    .next-button {
+      font-size: 20px;
+    }
+  }
+  
