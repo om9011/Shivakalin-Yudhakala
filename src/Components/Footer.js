@@ -10,13 +10,13 @@ const Footer = () => {
                         <a href="#home" className="text-sm hover:text-gray-400">Home</a>
                     </li>
                     <li>
-                        <a href="#" className="text-sm hover:text-gray-400">About Us</a>
+                        <a href="#home" className="text-sm hover:text-gray-400">About Us</a>
                     </li>
                     <li>
-                        <a href="#" className="text-sm hover:text-gray-400">Services</a>
+                        <a href="#home" className="text-sm hover:text-gray-400">Services</a>
                     </li>
                     <li>
-                        <a href="#" className="text-sm hover:text-gray-400">Contact Us</a>
+                        <a href="#home" className="text-sm hover:text-gray-400">Contact Us</a>
                     </li>
 
                 </ul>
@@ -25,22 +25,22 @@ const Footer = () => {
             <div>
                 <ul className='flex justify-center items-center gap-10'>
                     <li>
-                        <a href="#" className="text-sm hover:text-gray-400">
+                        <a href="https://www.google.com/" className="text-sm hover:text-gray-400">
                             <i className="fab fa-facebook-f">Facebook</i>
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="text-sm hover:text-gray-400">
+                        <a href="https://www.google.com/" className="text-sm hover:text-gray-400">
                             <i className="fab fa-twitter">Twitter</i>
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="text-sm hover:text-gray-400">
+                        <a href="https://www.google.com/" className="text-sm hover:text-gray-400">
                             <i className="fab fa-youtube">Youtube</i>
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="text-sm hover:text-gray-400">
+                        <a href="https://www.google.com/" className="text-sm hover:text-gray-400">
                             <i className="fab fa-instagram">Instagram</i>
                         </a>
                     </li></ul>
